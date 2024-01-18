@@ -1,20 +1,20 @@
 @font-face {
     font-family: apple;
-    src: url('/SF-Pro-Text-Regular.otf');
+    src: url('../SF-Pro-Text-Regular.otf');
 }
 
 @font-face {
     font-family: apple_1;
-    src: url('/SF-Pro-Text-Medium.otf');
+    src: url('../SF-Pro-Text-Medium.otf');
 }
 
 @font-face {
     font-family: apple_2;
-    src: url('/SF-Pro-Text-Light.otf');
+    src: url('../SF-Pro-Text-Light.otf');
 }
 @font-face {
     font-family: apple_3;
-    src: url('/SF-Pro-Text-Bold.otf');
+    src: url('../SF-Pro-Text-Bold.otf');
 }
 
 
