@@ -1,0 +1,165 @@
+.main .page_3 {
+    width: 100%;
+}
+.page_3 .slider {
+    width: 100%;
+    height: 40vw;
+    background: #FFFFFF;
+}
+.slider .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    width: 100%;
+    overflow-x: auto;
+
+    height: 100%;
+
+    scroll-snap-type: x proximity;
+    scroll-behavior: smooth;
+}
+
+
+.page_3 .slider .slider_box {
+    height: 100%;
+    min-width: 75vw;
+    background: #FFFFFF;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    scroll-snap-speed: 80ms;
+    scroll-padding: 20px;
+    scroll-margin: 20px;
+    scroll-snap-destination: 10% 50%;
+    scroll-snap-points: repeat(100%);
+    position: relative;
+}
+
+.page_3 .slider .slider_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.slider_box .slider_box_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    position: absolute;
+    bottom: 3vw;
+    left: 4vw;
+
+}
+
+
+.slider_box .slider_box_info button {
+    border: none;
+    outline: none;
+    padding: 1vw 2.5vw;
+    font-weight: 800;
+    border-radius: 55px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.slider_box .slider_box_info button #play_svg {
+    fill: black;
+}
+
+
+
+.slider_box .slider_box_info p {
+    color: white;
+    font-family: apple_2;
+
+
+
+}
+
+.slider_box .slider_box_info p span {
+    font-weight: 800;
+    font-family: apple_3;
+
+
+}
+
+
+
+@media (max-width: 600px) {
+    .page_3 .slider {
+        width: 100%;
+        height: 125vw;
+        background: #FFFFFF;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3.5vw;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+
+    .page_3 .slider .slider_box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .slider_box .slider_box_info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5vw;
+        position: absolute;
+        bottom: 6vw;
+        left: 4vw;
+    }
+
+
+    .slider_box .slider_box_info button {
+        border: none;
+        outline: none;
+        padding: 3vw 4.5vw;
+        font-weight: 800;
+        border-radius: 55px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+    }
+
+    .slider_box .slider_box_info button #play_svg {
+        fill: black;
+    }
+
+
+
+    .slider_box .slider_box_info p {
+        color: white;
+        font-family: apple_2;
+
+        width: 50%;
+        text-align: center;
+
+
+    }
+
+    .slider_box .slider_box_info p span {
+        font-weight: 800;
+        font-family: apple_3;
+
+
+    }
+
+
+
+}

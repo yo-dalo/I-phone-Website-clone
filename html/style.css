@@ -1,0 +1,177 @@
+@font-face {
+    font-family: apple;
+    src: url('/SF-Pro-Text-Regular.otf');
+}
+
+@font-face {
+    font-family: apple_1;
+    src: url('/SF-Pro-Text-Medium.otf');
+}
+
+@font-face {
+    font-family: apple_2;
+    src: url('/SF-Pro-Text-Light.otf');
+}
+@font-face {
+    font-family: apple_3;
+    src: url('/SF-Pro-Text-Bold.otf');
+}
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: apple;
+    background: #000000;
+
+}
+
+svg {
+    fill: #ff0000;
+}
+
+.main .page_1 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.page_1 nav {
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    background: #1C1C1C;
+    justify-content: space-around;
+
+}
+
+.page_1 nav .logo {
+    width: 1.5vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_1 nav div h2 {
+    font-size: 1.1vw;
+    font-weight: 600;
+    font-family: apple_2;
+    color: #CBCBCB;
+
+}
+
+.page_1 nav div li {
+    width: 1.5vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .mb {
+    display: none;
+}
+
+.nav_2 h2 {
+    color: #EFEFEF;
+    font-size: 1.3vw;
+    font-family: apple;
+    font-weight: 500;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .main .mc {
+        display: none;
+    }
+
+    .main .mb {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 11vw;
+        padding: 0 3vw;
+        background: #00000021;
+        backdrop-filter: blur(20px);
+        position: sticky;
+        top: 0;
+        z-index: 40000;
+        transition-duration: 1.21s;
+
+        transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+
+    }
+
+    .main .mb .mb_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8vw;
+    }
+
+    .mb_right_icon_3_line {
+        height: 100%;
+        margin-bottom: 1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        position: relative;
+        z-index: 10090;
+        margin: 0 2vw;
+
+    }
+
+    .mb_nav_line {
+        width: 4vw;
+        height: 0.3vw;
+        background: #FFFFFF;
+        border-radius: 55px;
+        position: absolute;
+        top: -5px;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .mb_right_icon_3_line :nth-child(2) {
+        position: absolute;
+        top: 5px;
+
+    }
+
+
+
+    .main .nav_2 {
+        min-height: 20vw;
+        text-align: center;
+    }
+
+
+    .main .nav_2 h2 {
+        font-size: 3.2vw;
+        padding: 2vw 2.7vw;
+        line-height: 1.2;
+    }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,319 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cantener {
+    width: 100%;
+    height: 65vw;
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.cantener img {
+    width: 100%;
+    height: 100%;
+    margin-top: 7vw;
+    margin-left: 14vw;
+    transform: rotate(-90deg) scale(1.5);
+
+}
+
+
+
+.cantener .cantener_box {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.cantener_box h1 {
+    font-size: 5vw;
+    color: #FFFFFF;
+    font-family: apple_2;
+    margin-top: 5vw;
+}
+
+.cantener_box h3 {
+    font-size: 2.5vw;
+    color: #FFFFFF;
+    font-family: apple_2;
+    font-weight: 590;
+    margin: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.cantener_box a {
+    font-size: 2.5vw;
+    font-family: apple_2;
+    font-weight: 590;
+    text-decoration: none;
+    margin: 2.5vw;
+    color: #2765E4;
+}
+
+.cantener_1 {
+    background: #FFFFFF;
+    color: #000000;
+    height: 70vw;
+    background: #6B97C6;
+    overflow: hidden;
+
+
+}
+
+.cantener_1 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0vw;
+    margin: 0;
+    margin-top: -12vw;
+    margin-bottom: 60vw;
+    object-fit: cover;
+    transform: rotateY(400deg) scale(1.5);
+    transition-duration: 2s;
+
+
+
+}
+
+.cantener_1 .cantener_box h1 {
+    font-size: 5vw;
+    color: #000000;
+    font-family: apple_2;
+    margin-top: 5vw;
+}
+
+.cantener_1 .cantener_box h3 {
+    font-size: 2.5vw;
+    color: #000000;
+    font-family: apple_2;
+    font-weight: 600;
+    margin: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.cantener_1 .cantener_box a {
+    font-size: 2.5vw;
+    font-family: apple_2;
+    font-weight: 590;
+    text-decoration: none;
+    margin: 2.5vw;
+    color: #2765E4;
+}
+
+
+
+
+/* ❌❌❌❌ */
+
+.cantener_2 {
+    background: #FFFFFF;
+    color: #000000;
+    background: #6B97C6;
+    overflow: hidden;
+
+
+}
+
+.cantener_2 img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    transform: rotateY(0deg) scale(1.5);
+    transition-duration: 2s;
+
+
+
+}
+
+.cantener_2 .cantener_box h1 {
+    font-size: 5vw;
+    color: #FFFFFF;
+    font-family: apple_2;
+    margin-top: 25vw;
+}
+
+.cantener_2 .cantener_box h1 .watch_logo img {
+    width: 6vw;
+    height: 10%;
+    transform: translate(-1vw, 7.7vw);
+}
+
+.cantener_2 .cantener_box h3 {
+    font-size: 2.5vw;
+    color: #FFFFFF;
+    font-family: apple_2;
+    font-weight: 600;
+    margin: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.cantener_2 .cantener_box a {
+    font-size: 2.5vw;
+    font-family: apple_2;
+    font-weight: 590;
+    text-decoration: none;
+    margin: 2.5vw;
+    color: #000000;
+    background: #FFFFFF;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 2.5vw 4vw;
+}
+
+
+
+
+
+
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+@media (max-width: 600px) {
+    .cantener_ {
+        width: 100%;
+        height: 130vw;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .cantener_ img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        object-fit: contain;
+        margin-top: 20vw;
+        transform: rotate(0deg) scale(0.6);
+
+    }
+
+
+
+    .cantener .cantener_box {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        text-align: center;
+    }
+
+    .cantener_box h1 {
+        font-size: 8vw;
+        color: #FFFFFF;
+        font-family: apple_2;
+        margin-top: 5vw;
+    }
+
+    .cantener_box h3 {
+        font-size: 4vw;
+        color: #FFFFFF;
+        font-family: apple_2;
+        font-weight: 590;
+        margin: 0.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .cantener_box a {
+        font-size: 4vw;
+        font-family: apple_2;
+        font-weight: 590;
+        text-decoration: none;
+        margin: 2.5vw;
+        color: #2765E4;
+    }
+
+    /* ❌❌❌ */
+
+    .cantener_1 {
+        height: 130vw;
+    }
+
+    .cantener_1 .cantener_box h1 {
+        font-size: 8vw;
+        margin-top: 15vw;
+    }
+
+    .cantener_1 .cantener_box h3 {
+        font-size: 4vw;
+    }
+
+
+    /* ❌❌❌❌ */
+
+    .cantener_2 {
+        height: 130vw;
+
+
+    }
+
+    .cantener_2 img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        object-fit: cover;
+        transform: rotateY(0deg) scale(1.5);
+        transition-duration: 2s;
+
+
+
+    }
+
+    .cantener_2 .cantener_box h1 {
+        font-size: 8vw;
+        color: #FFFFFF;
+        margin-top: 70vw;
+        font-weight: 900;
+    }
+
+    .cantener_2 .cantener_box h1 .watch_logo img {
+        width: 8vw;
+        height: 10%;
+        transform: translate(-1vw, 10.7vw);
+    }
+
+    .cantener_2 .cantener_box h3 {
+        font-size: 4vw;
+        color: #FFFFFF;
+        font-family: apple_2;
+        font-weight: 600;
+        margin: 0.5vw;
+        margin-bottom: 0.5vw;
+    }
+
+    .cantener_2 .cantener_box a {
+        font-size: 4vw;
+        font-family: apple_2;
+        font-weight: 590;
+        text-decoration: none;
+        margin: 2.5vw;
+        color: #000000;
+        background: #FFFFFF;
+        display: inline-block;
+        border-radius: 50px;
+        padding: 2.5vw 4vw;
+    }
+
+
+
+
+
+
+}

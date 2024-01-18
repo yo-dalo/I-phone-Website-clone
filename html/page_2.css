@@ -1,0 +1,137 @@
+.page_2 {
+    width: 100%;
+    min-height: 100vh;
+    background: #FFFFFF;
+}
+
+.page_2 .page_2_product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5vw;
+    flex-wrap: wrap;
+    padding: 1.5vw 1.5vw;
+
+}
+
+.page_2 .page_2_product .project {
+    width: 47.7vw;
+    height: 50vw;
+    background: #FBFBFD;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+
+.page_2 .page_2_product .project .product_img {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    background: #FBFBFD;
+    overflow: hidden;
+
+
+}
+
+.page_2 .page_2_product .project img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(2.3) translate(0%, -10%);
+
+}
+
+.page_2 .page_2_product .project .product_info {
+    background: #FBFBFD;
+    margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.9vw;
+
+}
+
+
+.product_info h1{
+    font-size: 5vw;
+}
+.product_info p{
+    font-size: 2vw;
+}
+
+.product_info a svg {
+    display: inline;
+    display: inline-block;
+    color: blue;
+    transform: rotate(90deg);
+    fill: blue;
+    text-decoration: none;
+    margin: 0.2vw;
+    transform: translate(-50%, 28%) rotate(90deg);
+}
+
+.product_info a {
+    display: inline-block;
+    fill: blue;
+    text-decoration: none;
+    margin: 1vw;
+}
+
+.bg_black{
+    background: #000000 !important;
+}
+.cl_white{
+    color: #FFFFFF !important;
+}
+
+
+.product_info_img {
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 600px) {
+    
+    .page_2 .page_2_product .project {
+    width: 100vw;
+    height: 110vw;
+    background: #FBFBFD;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.product_info h1 {
+    font-size: 8vw;
+            font-family: apple_3;
+
+
+}
+
+.product_info p {
+    font-size: 4vw;
+            font-family: apple;
+
+}
+
+.page_2 .page_2_product {
+        padding: 1.5vw 0vw;
+
+}
+
+
+
+    
+}
+
