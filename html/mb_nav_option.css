@@ -4,7 +4,8 @@
     background: #FAFAFC;
     position: fixed;
     top: -110vh;
-    z-index: 8080;
+    z-index: 80;
+   overflow: hidden;
     transition-duration: 1.21s;
 
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);

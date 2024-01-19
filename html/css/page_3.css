@@ -1,19 +1,21 @@
 .main .page_3 {
     width: 100%;
 }
+
 .page_3 .slider {
     width: 100%;
     height: 40vw;
     background: #FFFFFF;
 }
+
 .slider .swiper-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2vw;
     width: 100%;
-    overflow-x: auto;
-
+    overflow-x: scroll;
+    overflow-y: hidden;
     height: 100%;
 
     scroll-snap-type: x proximity;

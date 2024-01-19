@@ -25,7 +25,7 @@ open_mb_nav_option.addEventListener('click', () => {
 
     } else {
         on = true;
-        mb_nav_option.style.top = '0';
+        mb_nav_option.style.top = '11vw';
         line_1.style.transform = 'rotate(45deg)';
         line_2.style.transform = 'rotate(-45deg)';
 
@@ -37,7 +37,14 @@ open_mb_nav_option.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
         document.querySelector('.main .mb').style.background = '#FAFAFC';
 
+        gsap.from(".mb_nav_option_box h1 ", {
+            duration: 1.3,
+            y: 2300,
 
+            rotate: 100,
+            // delay:2,
+            opacity: 0,
+        })
 
     }
 
@@ -64,14 +71,14 @@ container.addEventListener('scroll', () => {
 
 x_x.forEach((b) => {
     b.addEventListener('click', function(e) {
-        
+
         x_x.forEach((c) => {
-        c.querySelector('ul').style.display = 'none'
+            c.querySelector('ul').style.display = 'none'
         })
 
-        
-        
-        
+
+
+
         e.target.querySelector('ul').style.display = 'block'
         setTimeout(function() {
             e.target.querySelector('ul').style.transform = 'scale(1)'
@@ -83,3 +90,63 @@ x_x.forEach((b) => {
 
     })
 })
+
+
+
+
+
+
+gsap.from(".cantener_2 >img", {
+    duration: 10,
+    scale: 2.5,
+    rotateY: 10,
+    rotate: -40,
+    transitionTimingFunction: 'linear',
+
+    yoyo: true,
+    repeat: -1,
+    skewX: 20,
+
+})
+
+gsap.from(".cantener_ >img", {
+    duration: 2,
+    scale: 12.5,
+    rotate: 90,
+})
+
+gsap.from(".main", {
+    y: -600,
+    duration: 3,
+    opacity:0,
+})
+
+
+
+
+
+
+
+
+var tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.page_2_product',
+        //markers: true,
+        scroller: 'body',
+        start: '10% 50%',
+        end: '100% 50%',
+        scrub: 8,
+        // pin: true,
+
+
+    }
+});
+
+tl.from('.project img', {
+    duration: 2,
+    scale: 1,
+}, 'a')
+
+
+
+//transform: rotateY(400deg) scale(1.5);

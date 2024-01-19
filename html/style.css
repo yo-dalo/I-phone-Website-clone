@@ -12,6 +12,7 @@
     font-family: apple_2;
     src: url('../SF-Pro-Text-Light.otf');
 }
+
 @font-face {
     font-family: apple_3;
     src: url('../SF-Pro-Text-Bold.otf');
@@ -29,13 +30,17 @@
 
 body {
     font-family: apple;
-    background: #000000;
-
+    background: #000;
 }
 
 svg {
     fill: #ff0000;
 }
+
+.main {
+    position: relative;
+}
+
 
 .main .page_1 {
     width: 100%;
@@ -50,7 +55,7 @@ svg {
     align-items: center;
     background: #1C1C1C;
     justify-content: space-around;
-
+    transition-duration: 1s;
 }
 
 .page_1 nav .logo {
@@ -110,10 +115,7 @@ svg {
         top: 0;
         z-index: 40000;
         transition-duration: 1.21s;
-
         transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
-
-
     }
 
     .main .mb .mb_right {

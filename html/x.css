@@ -18,9 +18,13 @@ img {
     height: 100%;
     margin-top: 7vw;
     margin-left: 14vw;
+    transition-property: transform;
+    transition-duration: 1s;
     transform: rotate(-90deg) scale(1.5);
-
 }
+
+
+
 
 
 
@@ -62,9 +66,7 @@ img {
     background: #FFFFFF;
     color: #000000;
     height: 70vw;
-    background: #6B97C6;
     overflow: hidden;
-
 
 }
 
@@ -76,11 +78,9 @@ img {
     margin-top: -12vw;
     margin-bottom: 60vw;
     object-fit: cover;
+    transition-property: transform;
+    transition-duration: 1s;
     transform: rotateY(400deg) scale(1.5);
-    transition-duration: 2s;
-
-
-
 }
 
 .cantener_1 .cantener_box h1 {
@@ -116,7 +116,6 @@ img {
 .cantener_2 {
     background: #FFFFFF;
     color: #000000;
-    background: #6B97C6;
     overflow: hidden;
 
 
@@ -128,10 +127,6 @@ img {
     margin: 0;
     object-fit: cover;
     transform: rotateY(0deg) scale(1.5);
-    transition-duration: 2s;
-
-
-
 }
 
 .cantener_2 .cantener_box h1 {
@@ -200,9 +195,13 @@ img {
         margin: 0;
         object-fit: contain;
         margin-top: 20vw;
+        transition-duration: 1s;
+        animation-duration: 1s;
         transform: rotate(0deg) scale(0.6);
 
     }
+
+
 
 
 
@@ -270,7 +269,7 @@ img {
         margin: 0;
         object-fit: cover;
         transform: rotateY(0deg) scale(1.5);
-        transition-duration: 2s;
+        transition-duration: 1s;
 
 
 

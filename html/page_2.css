@@ -12,7 +12,7 @@
     gap: 1.5vw;
     flex-wrap: wrap;
     padding: 1.5vw 1.5vw;
-
+overflow: hidden;
 }
 
 .page_2 .page_2_product .project {
@@ -24,6 +24,8 @@
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
+  overflow: hidden;
+  
 }
 
 
